@@ -89,3 +89,15 @@ label{
         padding-top: 35px;
     }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 370px){
+    body{
+        background-color: #ca87de;
+    }
+    header{
+        margin-top: 210px;
+    }
+    .list{
+        background-color: rgba(231, 56, 179, 0.6);
+    }
+}
