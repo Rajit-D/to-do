@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    margin-top: 130px;
+    margin-top: 95px;
     height: 60px;
     width: 420px;
     border:  2px solid black;
@@ -55,7 +55,7 @@ label{
     font-size: 27px;
 }
 
-@media only screen and (max-width: 360px){
+@media only screen and (min-width: 350px) and (max-width: 375px){
     body{
         background-color: #96f2a6;
     }
@@ -72,14 +72,14 @@ label{
     }
 }
 
-@media only screen and (max-width: 380px) and (min-width: 361px){
+@media only screen and (max-width: 378px) and (min-width: 361px){
     body{
         background-color: #e8e584;
     }
     header{
-        margin-top: 120px;
+        margin-top: 150px;
         height: 60px;
-        width: 300px;
+        width: 280px;
     }
     .list{
         height: 275px;
@@ -90,14 +90,53 @@ label{
     }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 370px){
+@media only screen and (max-width: 800px) and (min-width: 770px){
     body{
         background-color: #ca87de;
     }
     header{
-        margin-top: 210px;
+        margin-top: 280px;
     }
     .list{
         background-color: rgba(231, 56, 179, 0.6);
+    }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 410px){
+    body{
+        background-color: #ca87de;
+    }
+    header{
+        margin-top: 250px;
+    }
+    .list{
+        background-color: rgba(231, 56, 179, 0.6);
+    }
+}
+
+@media only screen and (max-height: 674px) and (min-height:650px){
+    body{
+        background-color: #84e1e8;
+    }
+    header{
+        margin-top: 78px;
+    }
+    .list{
+        background-color: rgba(26, 78, 221, 0.5);
+    }
+}
+
+@media only screen and (max-width: 420px) and (min-width: 380px){
+    body{
+        background-color: #cc6d6d;
+    }
+    header{
+        margin-top: 100px;
+        width: 280px;
+    }
+    .list{
+        background-color: rgba(240, 92, 23, 0.5);
+        width: 220px;
+        padding-left: 80px;
     }
 }
